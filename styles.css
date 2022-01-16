@@ -1,0 +1,31 @@
+body {
+	background: #c3ebe0;
+	font-family: "Ubuntu", sans-serif;
+}
+header {
+	background: rgb(83, 158, 138);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	color: rgb(249, 196, 190);
+}
+header * {
+	margin: 10px;
+}
+#header-img {
+	width: 20%;
+	margin-right: 50%;
+}
+main {
+	display: flex;
+	flex-direction: column;
+	place-items: center;
+	color: #5f4c46;
+}
+a,
+a:hover,
+a:focus,
+a:active {
+	text-decoration: none;
+	color: inherit;
+}
