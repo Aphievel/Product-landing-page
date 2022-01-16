@@ -29,3 +29,27 @@ a:active {
 	text-decoration: none;
 	color: inherit;
 }
+#video {
+	width: 720px;
+	height: 405px;
+}
+p {
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 0px;
+	font-size: 18px;
+	text-align: justify;
+}
+.game-logo {
+	width: 15%;
+}
+@media (max-width: 425px) {
+	#video {
+		width: 320px;
+		height: 240px;
+	}
+	p {
+		margin-left: 10px;
+		margin-right: 0px;
+	}
+}
