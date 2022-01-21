@@ -8,6 +8,9 @@ header {
 	flex-direction: row;
 	align-items: center;
 	color: rgb(249, 196, 190);
+	position: fixed;
+	top: 0px;
+	width: 100%;
 }
 header * {
 	margin: 10px;
@@ -21,6 +24,7 @@ main {
 	flex-direction: column;
 	place-items: center;
 	color: #5f4c46;
+	margin-top: 100px;
 }
 a,
 a:hover,
@@ -42,6 +46,16 @@ p {
 }
 .game-logo {
 	width: 15%;
+}
+.our-games {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+.our-games-text {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
 @media (max-width: 425px) {
 	#video {
